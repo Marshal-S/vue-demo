@@ -18,7 +18,6 @@ const generateImportNextAppsRoutes = (): RouteRecordRaw[] => {
       '@/views2/**/layout.vue',
       '@/views2/**/layout.tsx',
       '@/views2/**/layout.jsx',
-      '@/views2/**/page.json',
     ], //排除前面加上感叹号 !@/views/Dashboard/*.vue
     {
       eager: true, //默认false懒加载import，设置为false则直接导入所有
