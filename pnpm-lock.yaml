@@ -66,6 +66,9 @@ importers:
       eslint-plugin-vue:
         specifier: ^9.32.0
         version: 9.32.0(eslint@9.20.0(jiti@2.4.2))
+      husky:
+        specifier: ^9.1.7
+        version: 9.1.7
       jiti:
         specifier: ^2.4.2
         version: 2.4.2
@@ -1633,6 +1636,11 @@ packages:
   human-signals@8.0.0:
     resolution: {integrity: sha512-/1/GPCpDUCCYwlERiYjxoczfP0zfvZMU/OWgQPMya9AbAE24vseigFdhAMObpc8Q4lc/kjutPfUddDYyAmejnA==}
     engines: {node: '>=18.18.0'}
+
+  husky@9.1.7:
+    resolution: {integrity: sha512-5gs5ytaNjBrh5Ow3zrvdUUY+0VxIuWVL4i9irt6friV+BqdCfmV11CQTWMiBYWHbXhco+J1kHfTOUkePhCDvMA==}
+    engines: {node: '>=18'}
+    hasBin: true
 
   ieee754@1.2.1:
     resolution: {integrity: sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==}
@@ -4293,6 +4301,8 @@ snapshots:
   html-tags@3.3.1: {}
 
   human-signals@8.0.0: {}
+
+  husky@9.1.7: {}
 
   ieee754@1.2.1: {}
 

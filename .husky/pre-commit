@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+echo "执行我们的脚本"
+
+echo "执行完毕了我们脚本"
