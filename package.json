@@ -14,9 +14,9 @@
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --build",
-    "lint": "eslint . --fix",
+    "lint": "eslint . --fix && echo \"1\" >> .husky/check",
     "format": "prettier --write src/",
-    "prepare": "husky init"
+    "prepare": "husky"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.1",
@@ -42,6 +42,7 @@
     "eslint-plugin-vue": "^9.32.0",
     "husky": "^9.1.7",
     "jiti": "^2.4.2",
+    "lint-staged": "^15.5.0",
     "npm-run-all2": "^7.0.2",
     "postcss": "^8.5.3",
     "prettier": "^3.4.2",

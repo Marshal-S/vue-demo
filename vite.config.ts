@@ -53,5 +53,8 @@ export default defineConfig({
         changeOrigin: true,
       },
     },
+    open: true, // 启动时自动打开浏览器
+    port: 3000, // 启动端口
+    cors: true, // 允许跨域
   },
 })

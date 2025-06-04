@@ -4,6 +4,7 @@
     <div class="cursor-pointer text-center" @click="$router.push('/dashboard')">
       测试#router登录
     </div>
+    <div class="bg-green-500 w-[20px] h-[20px]"></div>
     <div class="cursor-pointer text-center" @click="goDemo">进入demo测试</div>
     <div class="cursor-pointer text-center" @click="goExcel">进入excel导入导出相关测试</div>
     <div class="flex cursor-pointer">

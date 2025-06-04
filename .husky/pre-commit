@@ -1,5 +1,11 @@
 #!/usr/bin/env sh
 
-echo "执行我们的脚本"
-
-echo "执行完毕了我们脚本"
+if [ -e "$(dirname "$0")/check" ]
+then
+    echo 'lint已校验!'
+	rm -f $(dirname "$0")/check
+	exit 0
+else
+    echo 'lint未校验，请使用 npm run lint校验!'
+	exit 1
+fi
